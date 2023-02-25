@@ -42,6 +42,8 @@ routes.put('/:username', (req, res)=>{
             if(err) return res.send(err)
 
             res.send(` Actualizado `)
+
+            
         })
     })
 })
